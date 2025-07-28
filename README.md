@@ -167,7 +167,3 @@ pytest
 - Open Source: All libraries and models are open source
 
 ----
-
-This solution achieves the perfect balance between ultra-precision for known files and intelligent generalization for unknown documents, making it ideal for the Adobe India Hackathon 2025 Challenge 1a requirements.
-
----
