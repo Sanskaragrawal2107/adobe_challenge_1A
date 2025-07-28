@@ -1,27 +1,97 @@
-# PDF Outline Extractor
+ADOBE_CHALLENGE_1A
+Transform PDFs into Clear, Actionable Insights
 
-An automated tool that extracts headings from PDF files and creates structured outlines in JSON format. Think of it as an automatic table of contents generator!
+![last-commit]()
+![repo-top-language]()
+![repo-language-count]()
 
-## Features
+Built with the tools and technologies:
 
-- **Automatic Heading Detection**: Identifies headings based on font size, bold formatting, and text patterns
-- **Multi-Level Hierarchy**: Categorizes headings into H1, H2, H3, and H4 levels
-- **Document Title Extraction**: Automatically finds the document title
-- **JSON Output**: Creates structured, machine-readable outlines
-- **Dockerized**: Runs consistently across different environments
-- **Batch Processing**: Processes multiple PDFs at once
+![Markdown]()
+![Docker]()
+![Python]()
 
-## How It Works
+----
 
-The extractor analyzes PDF files using these techniques:
+Table of Contents
+	* [Overview](#overview)
+	* [Getting Started](#getting-started)
 
-1. **Font Analysis**: Larger fonts typically indicate headings
-2. **Style Detection**: Bold text often represents headings
-3. **Pattern Matching**: Recognizes common heading patterns like "Chapter 1", "INTRODUCTION", etc.
-4. **Hierarchy Determination**: Assigns heading levels based on font size differences
+		* [Prerequisites](#prerequisites)
+		* [Installation](#installation)
+		* [Usage](#usage)
+		* [Testing](#testing)
 
-## Quick Start
+----
 
-### Using Docker (Recommended)
+Overview
+adobe_challenge_1A is a developer-focused tool that simplifies extracting and structuring content from PDF documents. It enables efficient analysis, indexing, and transformation of PDFs into machine-readable formats, supporting scalable workflows.
 
-1. **Clone or create the project structure:**
+Why adobe_challenge_1A?
+
+This project provides an automated, reliable solution for parsing PDFs into structured data. The core features include:
+
+	* 🧩 🛠️ Hierarchical JSON Outline: Converts PDF headings into easy-to-navigate JSON structures for better content understanding.
+	* 📄 🔍 Metadata-Rich Extraction: Uses advanced processing to capture detailed text blocks, layout, and page dimensions.
+	* 🐳 🚀 Dockerized Environment: Ensures consistent deployment and performance across different systems.
+	* ⚙️ 🔄 Batch Processing: Handles multiple PDFs efficiently, streamlining large-scale workflows.
+	* 🎯 🔧 Modular & Extensible: Built with core Python components for easy customization and integration.
+
+----
+
+Getting Started
+Prerequisites
+This project requires the following dependencies:
+
+	* Programming Language: Python
+	* Package Manager: Pip
+	* Container Runtime: Docker
+
+Installation
+Build adobe_challenge_1A from the source and install dependencies:
+
+	1. Clone the repository:
+
+❯ git clone https://github.com/Sanskaragrawal2107/adobe_challenge_1A
+
+	1. Navigate to the project directory:
+
+❯ cd adobe_challenge_1A
+
+	1. Install the dependencies:
+
+Using [docker]():
+
+❯ docker build -t Sanskaragrawal2107/adobe_challenge_1A .
+
+Using [pip]():
+
+❯ pip install -r requirements.txt
+
+Usage
+Run the project with:
+
+Using [docker]():
+
+docker run -it {image_name}
+
+Using [pip]():
+
+python {entrypoint}
+
+Testing
+Adobe_challenge_1a uses the {test_framework} test framework. Run the test suite with:
+
+Using [docker]():
+
+echo 'INSERT-TEST-COMMAND-HERE'
+
+Using [pip]():
+
+pytest
+
+----
+
+[⬆ Return](#adobe_challenge_1a)
+
+----
