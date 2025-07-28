@@ -1,9 +1,3 @@
-  -v $(pwd)/input:/app/input:ro \
-  -v $(pwd)/output:/app/output \
-  --network none \
-  pdf-heading-extractor
----
-
 # ADOBE_CHALLENGE_1A  
 Transform PDFs into Clear, Actionable Insights
 
